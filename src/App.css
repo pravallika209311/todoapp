@@ -1,7 +1,31 @@
 .header{
   text-align: center;
   padding: 10px;
+  color: rgb(185, 91, 91);
 }
 .container{
-  text-align: center;
+align-items:center;
+display:flex;
+min-height: 30vh;
+justify-content: center;
+width:100%;
+
+}
+.wrapper{
+min-width:250px;
+min-height: 650px;
+}
+.taskinput{
+  outline: none;
+  width:200px;
+  padding:12px;
+  margin-right: 25px;
+  font-size:20px;
+  color:rgb(110, 104, 104);
+  border:1px solid #b15f13;
+ border-radius: 10px;
+
+}
+.addtask{
+
 }

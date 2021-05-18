@@ -5,7 +5,7 @@ const Form = () => {
         <div>
             <form>
                 <input type ="text"  className="taskinput"/>
-                <button className="addtask" type="reset"> Add</button>
+                <button className="addtask" type="submit"> Add</button>
             </form>
         </div>
     )
