@@ -13,7 +13,7 @@ const[todos,setTodos] = useState([]);
       <div><Form 
       input={input}
       setInput={setInput}
-      todos={todos}
+      todos={todos} 
       setTodos={setTodos}
       /></div>
       <div> <Todolist todos={todos} setTodos={setTodos}/></div>

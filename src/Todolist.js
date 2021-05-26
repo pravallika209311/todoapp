@@ -37,6 +37,6 @@ className="list" onChange={(e)=>e.preventDefaut()}/>
 </li>
 ))}
   </div>
-);
+);    
 };
 export default Todolist;

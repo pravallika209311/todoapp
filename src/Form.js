@@ -10,7 +10,7 @@ const Form = ({input,setInput,todos,setTodos}) => {
   setTodos([...todos,{id:uuidv4(),title:input,completed:false}]);
  setInput("");   
 };
-    return (
+    return (  
         <div>
             <form onSubmit={onFormSbmit} >
                 <input type ="text"  className="taskinput" value={input} required
